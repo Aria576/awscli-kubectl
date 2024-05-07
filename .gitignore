@@ -1,0 +1,44 @@
+# Ignore local configuration files
+awscli-kubectl/.aws/config
+awscli-kubectl/.aws/credentials
+
+# Ignore generated files
+awscli-kubectl/.aws/credentials.generated
+
+# Ignore logs and temporary files
+awscli-kubectl/logs/
+awscli-kubectl/tmp/
+
+# Ignore compiled binaries
+awscli-kubectl/bin/
+
+# Ignore IDE and editor specific files
+awscli-kubectl/.vscode/
+awscli-kubectl/.idea/
+awscli-kubectl/.vim/
+
+# Ignore package manager directories
+awscli-kubectl/node_modules/
+awscli-kubectl/vendor/
+
+# Ignore sensitive information
+awscli-kubectl/.env
+awscli-kubectl/.env.local
+awscli-kubectl/.env.*.local
+
+# Ignore build artifacts
+awscli-kubectl/build/
+awscli-kubectl/dist/
+
+# Ignore OS and editor generated files
+awscli-kubectl/.DS_Store
+awscli-kubectl/.project
+awscli-kubectl/.classpath
+awscli-kubectl/.settings/
+awscli-kubectl/.metadata/
+awscli-kubectl/.history
+
+# Ignore backup files
+awscli-kubectl/*.bak
+awscli-kubectl/*.swp
+awscli-kubectl/*.swo
